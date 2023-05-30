@@ -2,8 +2,8 @@ spring:
   application:
     name: INVENTORY-SERVICE
   datasource:
-    username: ozge
-    password: 'ozge0303'
+    username: root
+    password: '12345'
     url: jdbc:mysql://localhost:3307/inventorydb?createDatabaseIfNotExist=true
   jpa:
     properties:
