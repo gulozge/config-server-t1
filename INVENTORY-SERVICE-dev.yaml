@@ -2,7 +2,7 @@ spring:
   application:
     name: INVENTORY-SERVICE
   datasource:
-    username: root
+    username: ozge
     password: '12345'
     url: jdbc:mysql://localhost:3307/inventorydb?createDatabaseIfNotExist=true
   jpa:
