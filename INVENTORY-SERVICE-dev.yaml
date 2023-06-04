@@ -1,11 +1,6 @@
 spring:
   application:
     name: INVENTORY-SERVICE
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          jwk-set-uri: http://localhost:8083/realms/master/protocol/openid-connect/certs
     username: root
     password: '12345'
     url: jdbc:mysql://localhost:3307/inventorydb?createDatabaseIfNotExist=true
