@@ -2,7 +2,7 @@ spring:
   application:
     name: INVOICE-SERVICE
   security:
-  oauth2:
+   oauth2:
     resourceserver:
       jwt:
         jwk-set-uri: http://localhost:8083/realms/RentACarMicroservice/protocol/openid-connect/certs
